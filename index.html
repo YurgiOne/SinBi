@@ -2,10 +2,59 @@
 <html>
   <head>
     <link rel="stylesheet" href="./css/site.css" />
-    <link rel="icon" type="image/x-icon" href="./images/favicon16x16.png">
+    <link rel="icon" type="image/x-icon" href="./images/favicon16x16.png" />
   </head>
   <title>SinBi knjigovodstvo d.o.o.</title>
+
   <body>
+    <header class="container-fluid" id="headerContainer">
+      <nav class="navbar navbar-expand-sm navbar-light bg-light navbar-center">
+        @*<a
+          class="navbar-brand col-md-4 offset-md-4"
+          asp-controller="App"
+          asp-action="Index"
+          ><i class="fa fa-car"></i> Yurgi One </a
+        >*@
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav" id="menuItems">
+            <a
+              class="nav-item nav-link active"
+              asp-controller="App"
+              asp-action="Index"
+            >
+              <img src="~/img/home_btn.gif" />
+            </a>
+            <a
+              class="nav-item nav-link"
+              asp-controller="App"
+              asp-action="About"
+            >
+              <img src="~/img/about_btn.gif" />
+            </a>
+            <a
+              class="nav-item nav-link"
+              asp-controller="App"
+              asp-action="Contact"
+            >
+              <img src="~/img/contact_btn.gif" />
+            </a>
+            <br class="clearfloat" />
+          </div>
+        </div>
+      </nav>
+    </header>
+
     <header>
       <h1>This is <em>still</em> a motherfucking website.</h1>
       <aside>And it's more fucking perfect than the last guy's.</aside>
@@ -112,5 +161,16 @@
         ga("send", "pageview");
       </script>
     </p>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
   </body>
+  <footer>Maksimirska cesta 152a, Zagreb, Croatia</footer>
 </html>
