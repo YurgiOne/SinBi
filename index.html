@@ -85,26 +85,28 @@
                 ali ne znate kako itd.</p>
             <p>Naše iskustvo stečeno kroz poslovanje više od 20 godina, znanje i stručnost će biti uz vas.</p>
 
-            <form id="contactform" action="https://formsubmit.io/send/nikola.jurgec@gmail.com" method="POST">
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="752709de-fdd0-4f91-9d49-e15f51dedd97">
+
                 <div class="fields">
                     <div class="field half">
-                        <input name="name" type="text" id="name" placeholder="Ime">
+                        <input name="name" type="text" id="name" placeholder="Ime" required>
                     </div>
                     <div class="field half">
-                        <input name="email" type="email" id="email" placeholder="e-mail">
+                        <input name="email" type="email" id="email" placeholder="e-mail" required>
                     </div>
 
                     <div class="field">
                         <textarea name="comment" id="comment" rows="7" placeholder="Pišite nam."></textarea>
                     </div>
-                    <input name="_formsubmit_id" type="text" style="display:none">
+                    <input name="_formsubmit_id" type="text" style="display:none" required>
                 </div>
+          <!--      <div class="h-captcha" data-captcha="true"></div>-->
                 <ul class="actions">
                     <li><input value="Pošalji" type="submit" class="button primary"></li>
                 </ul>
             </form>
-
-
             <!--					<form id="contactform" action="https://formsubmit.io/send/njurgec@hotmail.com method="POST">
                                     <div class="fields">
                                         <div class="field half">
@@ -156,5 +158,6 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 </html>
