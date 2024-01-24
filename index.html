@@ -85,45 +85,27 @@
                 ali ne znate kako itd.</p>
             <p>Naše iskustvo stečeno kroz poslovanje više od 20 godina, znanje i stručnost će biti uz vas.</p>
 
+
+
             <form action="https://api.web3forms.com/submit" method="POST">
-
                 <input type="hidden" name="access_key" value="752709de-fdd0-4f91-9d49-e15f51dedd97">
-
                 <div class="fields">
-                    <div class="field half">
-                        <input name="name" type="text" id="name" placeholder="Ime" required>
-                    </div>
-                    <div class="field half">
-                        <input name="email" type="email" id="email" placeholder="e-mail" required>
-                    </div>
 
-                    <div class="field">
-                        <textarea name="comment" id="comment" rows="7" placeholder="Pišite nam."></textarea>
+                    <div class="field half">
+                        <input type="text" name="name" placeholder="Ime" required>
                     </div>
-                    <input name="_formsubmit_id" type="text" style="display:none" required>
+                    <div class="field half">
+                        <input type="email" name="email"  placeholder="e-mail" required>
+                    </div>
+                    <div class="field">
+                        <textarea name="message" rows="7" placeholder="Pišite nam" required></textarea>
+                    </div>
+                    <input type="hidden" name="redirect" value="https://web3forms.com/success">
                 </div>
-          <!--      <div class="h-captcha" data-captcha="true"></div>-->
                 <ul class="actions">
-                    <li><input value="Pošalji" type="submit" class="button primary"></li>
+                   <li> <button type="submit" class="button primary">Submit Form</button></li>
                 </ul>
             </form>
-            <!--					<form id="contactform" action="https://formsubmit.io/send/njurgec@hotmail.com method="POST">
-                                    <div class="fields">
-                                        <div class="field half">
-                                            <input type="text" name="name" id="name" placeholder="Name" />
-                                        </div>
-                                        <div class="field half">
-                                            <input type="email" name="email" id="email" placeholder="Email" />
-                                        </div>
-                                        <div class="field">
-                                            <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
-                                        </div>
-                                    </div>
-                                    <ul class="actions">
-                                        <li><input type="submit" value="Send Message" class="button primary" /></li>
-                                    </ul>
-                                </form>-->
-
         </div>
         <footer>
             <ul class="items">
