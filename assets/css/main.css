@@ -3882,4 +3882,25 @@ input, select, textarea {
 			padding: 4rem;
 		}
 
+		.europskaUnija{
+			display: grid;
+			grid-template-columns: auto auto;
+			justify-content: left;
+			column-gap: 10px;
+			row-gap: 1em;
+		}
+
+		.europskaUnija2{
+			display: grid;
+			grid-template-rows: 30px 30px;
+			column-gap: 5px;
+			row-gap: 5px;
+		}
+
 	}
+
+
+.europskaUnija2{
+	color: #003399;
+	font-size: 24px;
+}
