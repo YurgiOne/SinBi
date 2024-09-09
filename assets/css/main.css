@@ -249,7 +249,6 @@ h6 {
 
 
 .logoEu {
-    content: url('/images/CoFundedEU.png');
     width: 256px;
     height: auto;
     justify-content: right;
@@ -259,7 +258,6 @@ h6 {
 
 
 .logoHamag {
-    content: url('/images/HamagBicroLogo.png');
     width: 256px;
     height: auto;
     object-fit: cover;
