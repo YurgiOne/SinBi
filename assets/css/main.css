@@ -3934,6 +3934,8 @@ body.is-ie #wrapper > section > .content > section {
     aspect-ratio: 1;
     font-size: 24px;
     letter-spacing: 1px;
+    width: 216px;
+    max-width: 216px;
 }
 
 .grid-item img {
@@ -3941,6 +3943,7 @@ body.is-ie #wrapper > section > .content > section {
     max-width: 216px;
     height: auto;
     aspect-ratio: 1;
+
 }
 
 .grid-item:hover {
