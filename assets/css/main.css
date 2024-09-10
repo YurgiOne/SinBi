@@ -3938,6 +3938,7 @@ body.is-ie #wrapper > section > .content > section {
 
 .grid-item img {
     width: 216px;
+    max-width: 216px;
     height: auto;
     aspect-ratio: 1;
 }
