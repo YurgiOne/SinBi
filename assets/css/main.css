@@ -3900,7 +3900,57 @@ body.is-ie #wrapper > section > .content > section {
     body.is-ie #wrapper section > footer {
         padding: 4rem;
     }
-
-
 }
 
+
+
+
+.box img{
+    aspect-ratio: 1;
+    max-width: 216px;
+}
+
+
+#klijentiGrid{
+    display: grid;
+    grid-gap: 10px;
+    column-width: 216px;
+    max-width: 512px;
+    grid-template-columns: repeat(auto-fit, 186px);
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(216px, 212px));
+    grid-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+    display: flex;
+    text-align: center;
+    padding: 30px;
+    aspect-ratio: 1;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.grid-item img {
+    width: 216px;
+    height: auto;
+    aspect-ratio: 1;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+}
+.grid-item  {
+    transition: all .2s ease-in-out;
+}
+
+.grid-item{
+    box-shadow:
+            1px 1px 2.8px 2.2px rgba(0, 0, 0, 0.034),
+            1px 1px 6.7px 5.3px rgba(0, 0, 0, 0.048);
+}
