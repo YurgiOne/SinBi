@@ -3946,8 +3946,9 @@ body.is-ie #wrapper > section > .content > section {
     1px 1px 6.7px 5.3px rgba(0, 0, 0, 0.048);
 }
 
-.grid-item:link {
+.grid-item {
     text-decoration: none !important;
+    border:0;
 }
 
 .grid-item:link {
