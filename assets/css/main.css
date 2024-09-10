@@ -3909,8 +3909,7 @@ body.is-ie #wrapper > section > .content > section {
 }
 
 
-
-.grid-container  {
+.grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(216px, 212px));
     grid-gap: 20px;
@@ -3926,7 +3925,7 @@ body.is-ie #wrapper > section > .content > section {
 .grid-item img {
     object-fit: contain;
     aspect-ratio: 1;
-    width: 300px;
+    max-width: 100%;
     text-decoration: none;
 }
 
@@ -3943,26 +3942,28 @@ body.is-ie #wrapper > section > .content > section {
 .grid-item {
     display: flex;
     flex-wrap: nowrap;
-    align-items: stretch;
-    box-shadow:
-    1px 1px 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    box-shadow: 1px 1px 2.8px 2.2px rgba(0, 0, 0, 0.034),
     1px 1px 6.7px 5.3px rgba(0, 0, 0, 0.048);
 }
 
 .grid-item:link {
     text-decoration: none !important;
 }
+
 .grid-item:link {
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
+
 .grid-itemvisited {
     text-decoration: none;
 }
+
 .grid-item:hover {
-    text-decoration: none!important;
+    text-decoration: none !important;
 
 }
+
 .grid-item:active {
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
