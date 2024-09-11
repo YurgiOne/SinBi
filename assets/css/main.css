@@ -3908,11 +3908,11 @@ body.is-ie #wrapper > section > .content > section {
     max-width: 216px;
 }
 
-
+/*velicina logo*/
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(216px, 212px));
-    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 150px));
+    grid-gap: 10px;
     margin-bottom: 20px;
     text-decoration: none !important;
 }
